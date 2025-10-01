@@ -1,4 +1,4 @@
-# HP-VICTUS-16 Hackintosh
+# HP-VICTUS-15 Hackintosh
 
  <h2 align="center"> OpenCore EFI For HP Victus 16 Ryzen 5 5600H & Radeon RX 5500M</h2>
  OpenCore Ver: 0.9.6</br>
@@ -27,15 +27,14 @@ Use SSDT-Nvme-DISABLE.aml to disable the Nvme drives that are problematic, else 
 | ----------------------- | :------------------------------------------------------------------------- |   
 | CPU                     | AMD Ryzen™ 5 5600H with Radeon Graphics                                    |
 | iGPU                    | Radeon Graphics (Vega 8)                                                   |
-| dGPU                    | Radeon RX 5500M (Navi 14) [DISABLED]                                     |
+| dGPU                    | Nvidia RTX3050 [DISABLED]                                     |
 | Memory                  | 24GB DDR4 3200MHz                                                          |
-| Storage                 | 512GB NVMe SKHynix_HFS512GDE9X084N   [UNSUPPORTED] |
-||512GB NVMe SAMSUNG MZVLB512HBJQ-000H1 (PM981)   [UNSUPPORTED]                                                           |
-||512GB NVMe WD SN580 PCIe Gen4                                                          |
+| Storage                 | 512GB NVMe SKHynix_HFS512GDE9X084N   [UNSUPPORTED] |                                                          |
+||1024GB Ediloca EN760 PCIe Gen4                                                          |
 | Network                 | RTL8852AE 802.11ax PCIe Wireless Network Adapter [UNSUPPORTED]                         | 
 || RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller|
 | Audio|Realtek ALC245|
-|LCD Panel| 16.1" FHD IPS 60Hz|
+|LCD Panel| 15" FHD IPS 144Hz|
 
 ## What's Working
 
@@ -87,9 +86,5 @@ Use SSDT-Nvme-DISABLE.aml to disable the Nvme drives that are problematic, else 
 |[SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors)|AMD GPU temperature monitoring on macOS|
 |[VoodooI2C.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip)|Driver for I2C input devices.|
 |[VoodooRMI.kext](https://github.com/VoodooSMBus/VoodooRMI)|Synaptic Trackpad driver over SMBus/I2C for macOS|
-
-## Screenshots
-![Screenshot 2024-05-19 at 10 18 01 PM](https://github.com/akhil838/HP-VICTUS-16_Hackintosh/assets/64255484/eb2d2328-b82d-439b-9509-43b2174c9617)
-![Screenshot 2024-05-19 at 10 19 22 PM](https://github.com/akhil838/HP-VICTUS-16_Hackintosh/assets/64255484/dea6dd8a-4a08-4e1a-a8a6-22039ae1d33e)
 
 

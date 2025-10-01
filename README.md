@@ -1,6 +1,6 @@
 # HP-VICTUS-15 Hackintosh
 
- <h2 align="center"> OpenCore EFI For HP Victus 16 Ryzen 5 5600H & Radeon RX 5500M</h2>
+ <h2 align="center"> OpenCore EFI For HP Victus 15 Ryzen 5 5600H & Nvidia RTX 3050</h2>
  OpenCore Ver: 0.9.6</br>
  MacOS Supported Ver: 
  
